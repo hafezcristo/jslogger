@@ -1,0 +1,32 @@
+<html>
+<head>
+<style type="text/css">
+	body {
+		height: 100%;
+	}
+	
+</style>
+
+</head>
+<body>
+	
+	<!--// include the script //-->
+	<script src="jslog/jslog.js"></script>	
+	
+	<script>
+	<!--// native console functions are re-routed to JSLOG //-->
+	console.log("this is a log message");
+	
+	console.error("this is an error message");
+	
+	</script>
+	
+	<script>
+	<!--// syntax errors and line numbers will be shown in the console //-->
+	
+	invalid_javascript_syntax	
+	
+	</script>
+
+</body>
+</html> 
